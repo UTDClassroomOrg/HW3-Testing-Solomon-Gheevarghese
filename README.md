@@ -28,13 +28,14 @@ The `average` function is used to calculates the average which is of the first `
 5. **Edge cases**
 
 ### Partition Test Cases:
-| Input   | Input List       |               | Partition Description               |
-|-------------------------------|--------------------------------------|
-| `k = 3; | list = {10, 20, 30, 40}` | Array.size > `k`                    |
-| `k = 4; | list = {10, 20, 30, 40}` | Array.size = `k`                    |
-| `k = 5; | list = {10, 20, 30, 40}` | Array.size < `k`                    |
-| `k = 0; | list = {10, 20, 30}`      | `k = 0`                             |
-| `k = 1; | list = {10}`              | `k = 1`                             |
+| Input              | Input List             | Partition Description              |
+|--------------------|------------------------|-------------------------------------|
+| `k = 3`            | `list = {10, 20, 30, 40}` | Array.size > `k`                   |
+| `k = 4`            | `list = {10, 20, 30, 40}` | Array.size = `k`                   |
+| `k = 5`            | `list = {10, 20, 30, 40}` | Array.size < `k`                   |
+| `k = 0`            | `list = {10, 20, 30}`    | `k = 0`                            |
+| `k = 1`            | `list = {10}`            | `k = 1`                            |
+
 
 ---
 
